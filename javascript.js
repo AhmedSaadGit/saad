@@ -1,5 +1,5 @@
-let villeCourante ="Lyon";
+let villeCourante ="Agadir";
 
 function showCity(){
-    alert(villeCourante)
+    console.log(villeCourante);
 }
