@@ -1,12 +1,12 @@
 body{
     background-color:floralwhite;
-    display: flex;
+    display: grid;
     justify-content: center;
     
 }
 
 .page{
-    width: 80%;
+    width: 90%;
     align-items: center;
     
 }
@@ -41,7 +41,7 @@ body{
 }
 
 
-.agadir,.casablanca,.marrakech{
+#agadir,#casablanca,#marrakech{
     width:230px;
     display:flex; 
     justify-content: space-between;

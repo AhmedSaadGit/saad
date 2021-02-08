@@ -9,20 +9,32 @@
     <meta charset="UTF-8">
 </head>
 
-<body onload="showCity()">
+<body >
+
+    <div class="menu">
+        <label >Choose a city:</label>
+
+        <select id="choosing" name="Cities" onchange="showCity()">
+            <option value="">--Please choose an option--</option>
+            <option value="Agadir">Agadir</option>
+            <option value="Casablanca">Casablanca</option>
+            <option value="Marrakech">Marrakech</option>
+        </select>
+
+    </div>
 <div class="page">
     <div id="Weather">
         <h1>Meteo in Morocco</h1>
     </div>
     <div class="villes">   
-        <div class="agadir">
+        <div id="agadir">
             <div class="wearth_style">
                 <h2>Agadir</h2>
                 <p>Température : 20 °C</p>
             </div>
             <img src="images/good.png" alt="Agadir Weather">    
         </div>
-        <div class="casablanca">
+        <div id="casablanca">
             <div class="wearth_style">
                 <h2>Casablanca</h2>
                 <p>Température : 15 °C</p>
@@ -30,7 +42,7 @@
             <img src="images/bad.png" alt="Casablanca Weather">
         </div>
        
-        <div class="marrakech">
+        <div id="marrakech">
             <div class="wearth_style">
             <h2>Marrakech</h2>
             <p>Température : 15 °C</p>
