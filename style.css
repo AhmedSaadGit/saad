@@ -6,7 +6,7 @@ body{
 }
 
 .page{
-    width: 90%;
+    width: 100%;
     align-items: center;
     
 }
@@ -42,13 +42,13 @@ body{
 
 
 #agadir,#casablanca,#marrakech{
-    width:230px;
+    width:260px;
     display:flex; 
     justify-content: space-between;
     border: 2px solid #2d2d2d;
     background-color: ghostwhite;
     padding: 2px;
-    margin: 0.3em;
+    margin-left: 0.3em;
     text-align: center;
 }
 
