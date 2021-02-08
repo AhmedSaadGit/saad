@@ -1,0 +1,60 @@
+body{
+    background-color:floralwhite;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.page{
+    width: 80%;
+    align-items: center;
+    
+}
+
+#Weather{
+    text-align: center;
+    border: 2px solid #2d2d2d;
+    background-color: ghostwhite;
+    align-content: center;
+    margin: 0.4em;
+}
+
+
+
+.villes{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+ .villes img {
+    width: 30%;
+    height:65%;
+    padding: 2%;
+    align-items: center;
+    
+}
+.wearth_style{
+    display: grid;
+    
+}
+
+
+.agadir,.casablanca,.marrakech{
+    width:230px;
+    display:flex; 
+    justify-content: space-between;
+    border: 2px solid #2d2d2d;
+    background-color: ghostwhite;
+    padding: 2px;
+    margin: 0.3em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: ghostwhite;
+    border: 2px solid #2d2d2d;
+    margin: 0.4em;
+}
