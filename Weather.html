@@ -10,15 +10,15 @@
 </head>
 
 <body >
-
-    <div class="menu">
+    
+    <div class="menu" >
         <label >Choose a city:</label>
 
-        <select id="choosing" name="Cities" onchange="showCity()">
+        <select id="choose" name="Cities" onchange="showCity()">
             <option value="">--Please choose an option--</option>
-            <option value="Agadir">Agadir</option>
-            <option value="Casablanca">Casablanca</option>
-            <option value="Marrakech">Marrakech</option>
+            <option value="agadir">agadir</option>
+            <option value="casablanca">casablanca</option>
+            <option value="marrakech">marrakech</option>
         </select>
 
     </div>
@@ -27,14 +27,14 @@
         <h1>Meteo in Morocco</h1>
     </div>
     <div class="villes">   
-        <div id="agadir">
+        <div class="city" id="agadir">
             <div class="wearth_style">
                 <h2>Agadir</h2>
                 <p>Température : 20 °C</p>
             </div>
             <img src="images/good.png" alt="Agadir Weather">    
         </div>
-        <div id="casablanca">
+        <div class="city" id="casablanca">
             <div class="wearth_style">
                 <h2>Casablanca</h2>
                 <p>Température : 15 °C</p>
@@ -42,7 +42,7 @@
             <img src="images/bad.png" alt="Casablanca Weather">
         </div>
        
-        <div id="marrakech">
+        <div class="city" id="marrakech">
             <div class="wearth_style">
             <h2>Marrakech</h2>
             <p>Température : 15 °C</p>
