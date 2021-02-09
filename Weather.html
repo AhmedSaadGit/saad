@@ -5,7 +5,7 @@
 <head>
     <script src="javascript.js"></script>
     <link rel="stylesheet" href = "style.css">
-    <title>Agadir Weather</title>
+    <title>Morocco Weather</title>
     <meta charset="UTF-8">
 </head>
 
@@ -15,9 +15,10 @@
 
         <select id="choose" name="Cities" onchange="showCity()">
             <option value=" ">--Please choose an option--</option>
-            <option value="agadir">agadir</option>
-            <option value="casablanca">casablanca</option>
-            <option value="marrakech">marrakech</option>
+            <option value="agadir">Agadir</option>
+            <option value="casablanca">Casablanca</option>
+            <option value="marrakech">Marrakech</option>
+            <option value="tanger">Tanger</option>
         </select>
 
     </div>
@@ -27,26 +28,51 @@
     </div>
     <div class="villes">   
         <div class="city" id="agadir">
-            <div class="wearth_style">
+            
                 <h2>Agadir</h2>
-                <p>Température : 20 °C</p>
+            <div class="wearth_style">
+                <p>Température : 20 °C<br>
+                Précipitations : 4%<br>
+                Humidité : 93%<br>
+                Vent : 11 km/h</p>
+                <img src="images/good.png" alt="Agadir Weather">
             </div>
-            <img src="images/good.png" alt="Agadir Weather">    
+               
         </div>
         <div class="city" id="casablanca">
+            <h2>Casablanca</h2>
             <div class="wearth_style">
-                <h2>Casablanca</h2>
-                <p>Température : 15 °C</p>
+                <p>Température : 17 °C<br>
+                Précipitations : 12%<br>
+                Humidité : 80%<br>
+                Vent : 5 km/h</p>
+                <img src="images/bad.png" alt="Casablanca Weather">
             </div>
-            <img src="images/bad.png" alt="Casablanca Weather">
+            
+        </div>
+
+        <div class="city" id="tanger">
+            <h2>Tanger</h2>
+            <div class="wearth_style">
+                <p>Température : 10 °C<br>
+                Précipitations : 18%<br>
+                Humidité : 90%<br>
+                Vent : 15 km/h</p>
+                <img src="images/bad.png" alt="Tanger Weather">
+            </div>
+            
         </div>
        
         <div class="city" id="marrakech">
-            <div class="wearth_style">
-            <h2>Marrakech</h2>
-            <p>Température : 15 °C</p>
-             </div>
+           
+                <h2>Marrakech</h2>
+          <div class="wearth_style">
+                <p>Température : 15 °C<br>
+                Précipitations : 0%<br>
+                Humidité : 80%<br>
+                Vent : 5 km/h</p>
             <img src="images/sunny.png" alt="Marrakech Weather">
+          </div>
         </div>
     </div> 
 

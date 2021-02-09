@@ -1,60 +1,90 @@
 body{
-    background-color:floralwhite;
+    background-color:rgb(101, 103, 131);
     display: grid;
-    justify-content: center;
-    
+    width: 80%;
+    margin: auto;
 }
 
 .page{
-    width: 100%;
     align-items: center;
-    
+}
+.menu{
+    text-align: center;
+    font: 1.3em bold;
+    border:4px solid white;
+    padding: 4px;
+    color: white;
+    border-radius: 10%;
 }
 
 #Weather{
     text-align: center;
-    border: 2px solid #2d2d2d;
-    background-color: ghostwhite;
-    align-content: center;
-    margin: 0.4em;
+    color: white;
+    border: 5px solid #ffffff;
+    margin-top: 1%;
+    border-radius: 10%;
 }
-
-
 
 .villes{
     display: flex;
-   
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
    
 }
  .villes img {
-    width: 30%;
-    height:65%;
-    padding: 2%;
+    width: 50px;
+    height:50px;
+    padding: 4%;
     align-items: center;
     
 }
 .wearth_style{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    
+}
+.wearth_style h2,p{
+    margin:0;
+    padding: 12px;
     
 }
 
 
-#agadir,#casablanca,#marrakech{
-    width:260px;
-    display:flex; 
-    justify-content: space-between;
-    border: 2px solid #2d2d2d;
-    background-color: ghostwhite;
-    padding: 2px;
-    margin-left: 0.3em;
+.city{
+    width: 43%;
+    min-width: 250px;
+    display:grid; 
+    border: 4px solid #ffffff;
+    background-color: rgb(205, 221, 245);
+    margin: 0.8em;
     text-align: center;
+    border-radius: 10%;
+}
+@media screen and (max-width:720px){
+    .city{
+        width:350px;
+    }
+}
+@media screen and (min-width:1300px){
+    .city {
+        width:30%;
+    }
 }
 
+
+
+.city h2{
+    margin-top: 0px;
+    background-color: rgb(235, 234, 223);
+    border-radius: 10%;
+}
 footer{
     text-align: center;
-    background-color: ghostwhite;
-    border: 2px solid #2d2d2d;
-    margin: 0.4em;
+    color: white;
+    border: 4px solid white;
+    margin-top: 0.4em;
+    border-radius: 10%;
 }
+
+
