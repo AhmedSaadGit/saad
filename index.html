@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 
+
 <html lang="en">
-	<head>
-		<script src="javascript.js"></script>
-        <link rel="stylesheet" href = "style.css">
-        <title>Weather WebSite</title>
-	    <meta charset="UTF-8">
-	</head>
-	<body>
-	  <h1>Hello world, The weather today </h1>
-	  <a href="Weather.html">HERE</a>
-	</body>
+<head>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href = "style.css">
+    <title>Morocco Weather</title>
+    <meta charset="UTF-8">
+</head>
+
+<body >
+    <div class="menu" >
+        <label >Choose a city:</label>
+
+        <select id="choose" name="Cities" onchange="showCity()">
+            <option value=" ">--Please choose an option--</option>
+            <option value="agadir">Agadir</option>
+            <option value="casablanca">Casablanca</option>
+            <option value="marrakech">Marrakech</option>
+            <option value="tanger">Tanger</option>
+        </select>
+
+    </div>
+<div class="page">
+    <div id="Weather">
+        <h1>Meteo in Morocco</h1>
+    </div>
+    <div class="villes">   
+        <div class="city" id="agadir">
+            
+                <h2>Agadir</h2>
+            <div class="wearth_style">
+                <p>Température : 20 °C<br>
+                Précipitations : 4%<br>
+                Humidité : 93%<br>
+                Vent : 11 km/h</p>
+                <img src="images/good.png" alt="Agadir Weather">
+            </div>
+               
+        </div>
+        <div class="city" id="casablanca">
+            <h2>Casablanca</h2>
+            <div class="wearth_style">
+                <p>Température : 17 °C<br>
+                Précipitations : 12%<br>
+                Humidité : 80%<br>
+                Vent : 5 km/h</p>
+                <img src="images/bad.png" alt="Casablanca Weather">
+            </div>
+            
+        </div>
+
+        <div class="city" id="tanger">
+            <h2>Tanger</h2>
+            <div class="wearth_style">
+                <p>Température : 10 °C<br>
+                Précipitations : 18%<br>
+                Humidité : 90%<br>
+                Vent : 15 km/h</p>
+                <img src="images/bad.png" alt="Tanger Weather">
+            </div>
+            
+        </div>
+       
+        <div class="city" id="marrakech">
+           
+                <h2>Marrakech</h2>
+          <div class="wearth_style">
+                <p>Température : 15 °C<br>
+                Précipitations : 0%<br>
+                Humidité : 80%<br>
+                Vent : 5 km/h</p>
+            <img src="images/sunny.png" alt="Marrakech Weather">
+          </div>
+        </div>
+    </div> 
+
+        <footer>
+            <p><em>SAAD Ahmed</em>  Weather icones : © icone-png.com tous droits réservés</p> 
+        </footer>
+</div>
+</body>
+
+
 </html>
