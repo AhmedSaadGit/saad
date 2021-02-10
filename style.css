@@ -30,8 +30,8 @@ body{
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
-   
 }
+
  .villes img {
     width: 60px;
     height:60px;
@@ -49,7 +49,11 @@ body{
     padding: 12px;
     
 }
-
+#selectedcity{
+color: rgb(235, 103, 8); 
+font-size: x-large;
+text-align: center;
+}
 
 .city{
     width: 43%;
@@ -61,12 +65,15 @@ body{
     text-align: center;
     border-radius: 10%;
 }
-@media screen and (max-width:720px){
+.city:hover{
+    border: 6px solid #f17b56;
+}
+@media screen and (max-width:740px){
     .city{
         width:350px;
     }
 }
-@media screen and (min-width:1300px){
+@media screen and (min-width:1280px){
     .city {
         width:30%;
     }

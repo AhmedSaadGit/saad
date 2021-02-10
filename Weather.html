@@ -9,25 +9,27 @@
     <meta charset="UTF-8">
 </head>
 
-<body >
+<body onload="begin()">
     <div class="menu" >
         <label >Choose a city:</label>
 
         <select id="choose" name="Cities" onchange="showCity()">
-            <option value=" ">--Please choose an option--</option>
-            <option value="agadir">Agadir</option>
-            <option value="casablanca">Casablanca</option>
-            <option value="marrakech">Marrakech</option>
-            <option value="tanger">Tanger</option>
+            <option value=" ">--Select a city--</option>
+            <option value="all">--All cities--</option>
+            <option value="Agadir">Agadir</option>
+            <option value="Casablanca">Casablanca</option>
+            <option value="Marrakech">Marrakech</option>
+            <option value="Tanger">Tanger</option>
         </select>
 
     </div>
 <div class="page">
+    <p id="selectedcity"> </p>
     <div id="Weather">
-        <h1>Meteo in Morocco</h1>
+        <h1>Weather in Morocco</h1>
     </div>
     <div class="villes">   
-        <div class="city" id="agadir">
+        <div class="city" id="Agadir">
             
                 <h2>Agadir</h2>
             <div class="wearth_style">
@@ -39,7 +41,7 @@
             </div>
                
         </div>
-        <div class="city" id="casablanca">
+        <div class="city" id="Casablanca">
             <h2>Casablanca</h2>
             <div class="wearth_style">
                 <p>Température : 17 °C<br>
@@ -51,7 +53,7 @@
             
         </div>
 
-        <div class="city" id="tanger">
+        <div class="city" id="Tanger">
             <h2>Tanger</h2>
             <div class="wearth_style">
                 <p>Température : 10 °C<br>
@@ -63,7 +65,7 @@
             
         </div>
        
-        <div class="city" id="marrakech">
+        <div class="city" id="Marrakech">
            
                 <h2>Marrakech</h2>
           <div class="wearth_style">
